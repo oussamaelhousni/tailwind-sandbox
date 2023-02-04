@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Colors</title>
-  </head>
-  <body>
-    <!-- Default colors -->
-    <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Colors</title>
+    </head>
 
-    <!-- Text Colors -->
+    <body class="px-6 py-4">
+        <!-- Default colors -->
+        <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Background Colors -->
+        <!-- Text Colors -->
 
-    <!-- Text Underline -->
+        <p class="text-black">Tailwind is awsome</p>
+        <p class="text-white bg-black">Tailwind is awsome</p>
+        <p class="text-red-200">Tailwind is awsome</p>
+        <p class="text-red-500">Tailwind is awsome</p>
+        <p class="text-green-500">Tailwind is awsome</p>
+        <p class="text-green-50">Tailwind is awsome</p>
+        <p class="text-cyan-500">Tailwind is awsome</p>
 
-    <!-- Border Colors -->
+        <!-- Background Colors -->
 
-    <!-- Divide Colors -->
+        <p class="bg-white text-black">Tailwind is awsome</p>
+        <p class="bg-black text-white">Tailwind is awsome</p>
+        <p class="bg-cyan-500">Tailwind is awsome</p>
+        <p class="bg-lime-300">Tailwind is awsome</p>
+        <p class="bg-teal-500">Tailwind css</p>
+        <div class="bg-yellow-300">Tailwind is awsome</div>
+        .
+        <!-- Text Underline -->
+        <p class="underline decoration-blue-500">tailwind is awsome</p>
+        <p class="underline decoration-amber-500">Tailwind is awsome</p>
+        <p class="underline decoration-zinc-500">Tailwind is awsome</p>
+        <p class="underline decoration-slate-400">Tailwind is awsome</p>
+        <!-- Border Colors -->
 
-    <!-- Outline Colors -->
+        <button class="border border-blue-500">Tailwind is awsome</button>
+        <button class="border border-black">Tailwind is awsome</button>
+        <button class="border border-red-400">tailwind is awsome</button>
+        <!-- Divide Colors -->
 
-    <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+        <div class="divide-y divide-gray-100">
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+            <p>Tailwind is awsome</p>
+        </div>
 
-    <!-- Accent Colors -->
+        <!-- Outline Colors -->
 
-    <!-- Arbitrary Colors -->
-  </body>
+        <button class="outline outline-red-500">Tailwind is awsome</button>
+        <button class="outline outline-green-600">Tailwind is awsome</button>
+        <button class="outline outline-yellow-600">tailwind is awsome</button>
+
+        <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+
+        <button class="shadow shadow-lg shadow-red-500 px-3">Button</button>
+        <button class="shadow shadow-lg shadow-red-500/50 px-3">Button</button>
+        <button class="shadow shadow-lg shadow-blue-400">Button</button>
+        <button class="shadow shadow-lg shadow-green-400">button</button>
+
+        <!-- Accent Colors -->
+
+        <input type="checkbox" class="accent-blue-500" />
+        <input type="checkbox" class="accent-red-500" />
+        <input type="checkbox" class="accent-green-500" />
+        <input type="checkbox" class="accent-purple-500" />
+
+        <!-- Arbitrary Colors -->
+
+        <div class="bg-[#eee] text-red-500">User defined color</div>
+    </body>
 </html>
